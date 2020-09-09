@@ -1,0 +1,39 @@
+<nav-bar></nav-bar>
+
+<div class="services" ng-controller="servicesController as vm">
+       <div class="servicesHeader">
+          <h1 class="text-center">Services</h1>
+           <h2 class="text-center">We offer a variety of services to fit your needs</h2>
+   
+       </div><!--close services header-->
+
+           <div class="myServices container-fluid">
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 first">
+                        <div class="my-overlay">
+                        <ul>
+                            <li class="text-center" ng-repeat = "services in vm.services1">{{services.name}}</li>
+                        </ul>
+                        </div>
+                    </div>
+        
+                <div class="col-sm-12 col-md-4 second">
+                        <div class="my-overlay">
+                        <ul>
+                            <li class="text-center" ng-repeat="services2 in vm.services2">{{services2.name}}</li>
+                        </ul>
+                        </div>
+                </div>
+                <div class="col-sm-12 col-md-4 third">
+                        <div class="my-overlay">
+                        <ul>
+                            <li class="text-center" ng-repeat="services3 in vm.services3">{{services3.name}}</li>
+                        </ul>
+                        </div>
+                     </div>
+                
+            </div><!--close row-->
+           </div><!--myServices-->
+</div><!--close services-->
+<app-footer></app-footer>

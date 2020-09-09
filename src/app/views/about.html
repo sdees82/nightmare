@@ -1,0 +1,18 @@
+<nav-bar></nav-bar>
+<div class="aboutUs" ng-controller="AboutController as vm">
+    <div class="aboutTron">
+        <div class="overlay2">
+            <h1 class="text-center">THE FOUNDER'S STORY</h1>
+        </div><!-- close overlay2-->
+    </div><!--close aboutTron-->
+
+    <!-----founder's story---->
+    <div class="founder container">
+        <img class = "phdImage" ng-src = "/app/images/phd-large.png">
+        <div class="para">
+            <p ng-repeat="stories in vm.story">{{stories.story}}</p>
+        </div>
+    
+    </div><!--close founder-->
+</div><!-- close aboutUs-->
+<app-footer></app-footer>

@@ -1,0 +1,21 @@
+{
+  "name": "fountain-inject",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "1.0.0-beta.1",
+    "bootstrap-sass": "^3.3.7",
+    "bootstrap": "^3.3.7",
+    "ngtweet": "^0.6.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.0"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  }
+}

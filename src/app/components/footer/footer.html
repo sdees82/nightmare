@@ -1,0 +1,50 @@
+<section>
+    <footer ng-controller="FooterController as vm">
+        <div class="container-fluid">
+           
+<div class="row text-center info">
+    <div class="col-sm-12 col-md-3">
+            <a href=""><img class="footerpic" ng-src="app/images/stay-connected.png"></a>
+    </div><!--close col-->
+            <div class="col-sm-12 col-md-3">
+                   <a href="https://www.instagram.com/phd_org/"><img class="footerpic"ng-src="app/images/instagram-font.png"></a>
+            </div> <!--close col-->
+                <div class="col-sm-12 col-md-3">
+                  <a href="tel:5551234567"><img class="footerpic" ng-src="app/images/facebook-font.png"></a>
+             </div> <!--close col-->
+                    <div class="col-sm-12 col-md-3">
+                     
+                     <a href="https://twitter.com/PhD_org"><img class="footerpic"ng-src="app/images/twitter-font.png"></a>
+            </div> <!--close col-->
+        </div><!--close row-->
+<!--links-->
+
+<div class="row info">
+    <div class="col-sm-12 col-md-4">
+          <h5 class="text-center">About Us</h5>
+       <hr>
+       <ul id="classTop">
+            <li ng-repeat="links in vm.links"><a href="{{links.component}}">{{links.name}}</a></li>
+       </ul>
+    </div> 
+     <div class="col-sm-12 col-md-4">
+           <h5 class="text-center">Contact</h5>
+       <hr>
+       <ul>
+            <li ng-repeat="myLinks in vm.contactLinks">{{myLinks.name}}</li>
+       </ul>
+    </div>
+
+     <div class="col-sm-12 col-md-4">
+        <p class="text-center sign-up">Sign Up</p>
+        <a ng-href="getinvolved"><button class="btn btn-default myButton">Go</button></a>
+    </div>
+    </div><!--close clinks-->
+</div><!--close container-fluid-->
+<div class="copyright container text-center">
+    <span>Copyright 2017 &#169<b>Parents Have Dreams.</b> Powered by <b>Sean Dees</b></span>
+</div>
+
+    </footer>
+</section>
+  

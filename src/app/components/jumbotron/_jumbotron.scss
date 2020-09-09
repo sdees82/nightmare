@@ -1,0 +1,99 @@
+@import '../../styles/_variables.scss';
+
+
+.main
+{   
+    background-attachment:fixed;
+    margin-top:6em;
+    height:100vh;
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom:0;
+    background: url("../images/mediabakery_3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+
+
+}
+
+.about{
+    height:100vh;
+    padding-bottom: 0;
+    margin-bottom:0;
+    background: url("../images/family.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.contact{
+    height:100vh;
+    padding-bottom: 0;
+    margin-bottom:0;
+    background: url("../images/family.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.donate{
+    height:100vh;
+    padding-bottom: 0;
+    margin-bottom:0;
+    background: url("../images/giving.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.overlay2{
+    height:100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.overlay3{  
+            position: relative;
+            top:8em;
+            font-family: 'Sanchez', serif;
+            width: 80%;
+            background: $theme-white-op;
+           
+                h1{
+                    
+                    font-size: 3.9em;
+        }
+        
+}
+.overlay4{  
+            position: relative;
+            top:8em;
+            left:9em;
+            background: $main-theme-op;
+            width: 60%;
+            p{  
+                
+                width:90%;
+                display: block;
+                font-size:1.2em;
+                line-height:1.6em;
+                letter-spacing: 1px;
+                font-weight:400;
+                margin: auto;
+            }
+        }
+.content{
+    width:100%;
+    position: relative;
+    top:40vh;
+    margin-left:10vh;
+    //bottom:20vh;
+
+    h1{
+        color: #FCCE0B;
+    }
+
+    h2,h5{
+        color:#fff;
+    }
+}

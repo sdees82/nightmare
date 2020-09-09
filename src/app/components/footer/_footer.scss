@@ -1,0 +1,140 @@
+@import '../../styles/_variables.scss';
+
+@media screen and (max-width:768px){
+
+    
+    
+    section > footer > .container-fluid > .row.info > .col-sm-12.col-md-4{
+            
+            margin-bottom: 30px;
+        h5{
+            font-size:20px;
+            margin-top:50px; 
+        }
+
+        ul {
+            padding: 0;
+            margin-left: 10px;
+
+            li{ 
+                text-align: center;
+                font-size: 15px;
+                //margin-left: 20px;
+            }
+            
+        }
+         #classTop{
+            margin-top: 20px;
+            li{
+                
+                font-size: 15px;
+                //margin-left:100px;
+            }
+        }
+    
+
+    .text-center.sign-up{
+        font-size:1.5em;
+        }
+
+    
+    }
+    section > footer .copyright.container.text-center{
+        margin-bottom: 0;
+        height: 60px;
+        span{
+            
+        }
+    }
+}
+
+
+
+
+
+
+/**********************/
+section > footer > .container-fluid > .info .col-md-3{
+    height:75px;
+
+}
+section > footer > .container-fluid > .info .col-md-4{
+    font-family: 'Open Sans', sans-serif;
+    color:#dbdbdb;
+
+        ul{
+            list-style: none;
+            margin-left:32% ;
+                li{
+                    line-height: 2em;
+                    a{
+                        text-decoration: underline;
+                        color:$theme-white;
+                    }
+                }
+        }
+    .myButton{
+        display: block;
+        margin: 0 auto;
+    }
+  
+}
+
+
+
+footer{
+    width:100%;
+}
+.footerImg{
+    
+    height:200px;
+    width: 375px;
+    
+   
+}
+
+ 
+
+.facebookpic{
+    height:100px;
+    width: 100px;
+}
+
+
+.info{
+    background: $theme-footer-info;//$theme-black;//$theme-dark-footer;
+    
+}
+
+
+.footerpic{
+    
+    height:60px;
+    width: 200px;
+    margin-right:1em;
+}
+.overlay{
+    margin-top:2vh;
+    margin-left:5vh;
+    height:75%;
+    width: 75%;
+    background: $theme-white;
+    box-shadow: 4px 4px 4px $theme-black ;
+}
+hr{
+    margin-bottom: 3%;
+    width: 4em;
+}
+
+
+.copyright{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: .5em;
+    height: 40px;
+    width: 100vw;
+    background: #171717;
+
+        span{
+            color:$theme-white;
+        }
+}

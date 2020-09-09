@@ -1,0 +1,174 @@
+@import '_variables.scss';
+
+
+
+
+@media screen and (max-width:992px){
+.contactPage .callUs{
+            height: 400px;
+            margin-bottom:5px;
+
+            a{
+                position: relative;
+                right: 20px;
+            }
+        
+}
+.contactPage > .jumbotron.container-fluid{
+    padding-top: 60px;
+    height: 900px;
+
+        .contacthead{
+
+            h2{ 
+                font-size:1.2em;
+            } 
+        }
+
+        form > .form-group > .row > .col-sm-12.col-md-6{ 
+            label{
+                font-size:1.3em;
+                margin-top:40px;
+            }
+            
+        }
+
+       
+    }
+}
+
+
+
+//contact
+    label{
+        margin-left:20%;
+        margin-top:5%;
+    }
+.contactPage{
+  .jumbotron{
+    
+    background: $main-theme;
+    margin-top:60px;
+    height: 500px;
+    padding-bottom:0;
+    background: #fff;
+
+        .contacthead{
+            border-bottom:1px solid $main-theme;
+
+        h1{
+            font-family: 'Alegreya', serif;
+            font-weight: 700;
+            line-height: 46px;
+            font-size: 46px;
+            margin: 0 0 20px 0;
+            //font-size: 2em;
+            //margin-bottom:1em;
+             b{
+                      color: $main-theme !important;
+                  }
+           
+        }
+        h2{
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: normal;
+            font-size: 21px;
+            line-height: 23px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0 0 23px 0;
+        }
+        p{
+             font-family: 'Roboto', sans-serif;
+             font-size: 20px;
+             line-height: 23px;
+             margin: 0 0 23px 0;
+        }
+    }
+  }
+        
+        form{
+            
+            margin-top:50px;
+            width: 100%;
+            margin:0 auto;
+            
+        .form-group{
+                font-family: 'Raleway', sans-serif;
+                font-size: 1.1em;
+                width: 100%;
+
+               
+                #email{
+                    .ng-invalid{
+                border: 5px solid green;
+                    }
+                    width: 50%;
+                    margin-left:20%;
+                }
+                 #name{
+                    width: 50%;
+                    margin-left:20%;
+                }
+                 #company{
+                    width: 50%;
+                    margin-left:20%;
+                }
+                #comments{
+                    width: 50%;
+                    margin-left:20%;
+                    margin-bottom:5%;
+                }
+                    h1{
+                      width: 100%;
+                  }
+
+                 
+    
+                
+             }
+        }
+        #textarea{
+                    display: block;
+                    width: 50%;
+                    margin-left:20%;
+                    margin-bottom: 5%;
+                    height:160px;
+                }
+        .btn{
+            margin-left:55%;
+            background: $theme-dark-coal !important;
+            color:$main-theme;
+        }
+  }
+  .callUs{
+      height: 300px;
+      background:$theme-dark-coal;
+      color: $theme-white;
+      margin-top:100px;
+      margin-bottom: 0;
+      border-top: 4px solid $main-theme;
+      border-bottom: 4px solid $main-theme;
+        h1{
+            padding-top:60px;
+        }
+       
+        .btn-default{
+            background: $main-theme !important;
+            color: $theme-dark-coal;
+            margin-left:47%;
+            width: 75px;
+            margin-top:20px;
+        }
+  }
+.google{
+   padding: 0;
+    width: 100%;
+    
+        
+        iframe{
+        height:200px;
+        width: 100%;
+        padding: 0;
+        }
+} 

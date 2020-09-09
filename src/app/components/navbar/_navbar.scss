@@ -1,0 +1,55 @@
+@import '../../styles/_variables.scss';
+ 
+
+
+ @media screen and (max-width:768px){
+     .navbar-collapse{
+         margin-top: 20px;
+         border:none;
+     }
+ }
+
+.active{
+    background: $main-theme;
+}
+
+.active:hover{
+    background: $theme-dark-coal;
+    color:$theme-white;
+}
+.myimg{
+    position: relative;
+    bottom: 0px;
+    left: 20px;
+    height: 75px;
+    width: 170px;
+}
+
+.navbar-default{
+    clear: both;
+    background: $theme-white;
+    min-height: 100px;
+    margin-bottom:0;
+    border-bottom:1px solid $main-theme;
+
+    .navbar-nav{
+        margin-top: 15px;
+    }
+    .navbar-nav > .active > a{
+        background: $main-theme;
+        
+    }
+
+    .navbar-nav > li > a{
+        
+        color: #666E70;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: .9em;
+        font-style:normal;
+        line-height:2em;
+    
+    }
+}
+
+

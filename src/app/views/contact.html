@@ -1,0 +1,43 @@
+<nav-bar></nav-bar>
+<div class="contactPage" ng-controller="ContactController as vm"> 
+    <div class="jumbotron container-fluid">  
+        <div class="contacthead">
+        <h1 class="text-center">We would <b>love</b> to hear from you</h1>
+         <h2 class="text-center contact2h">We are currently looking for volunteers to join our cause. We need people with backgrounds in finance, education, social work, entrepreneur experience, counselors and lawyers.</h2>
+                     
+        </div>
+           <form name="myForm"  method="POST" action="mail.php" novalidate>   
+                <div class="form-group">
+                        <div class="row">
+                             <div class="col-sm-12 col-md-6">
+
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control"  name="email" id="email" required="true">
+
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" name="name" id="name" required>
+
+                                <label for="company">Company/Organization:</label>
+                                <input type="text" class="form-control"  name="company" id="company">
+
+                            </div><!--close col-->
+                                   <div class="col-sm-12 col-md-6">
+                <label for="comment">Message:</label>
+                <textarea id="textarea" name="message" required></textarea>
+                <button class="btn btn-default"  ng-disabled="userForm.$invalid" ng-click= "formSubmit()">Submit</button>
+                </div><!--close col-->
+            </div><!--close row-->
+        </div><!--close form group-->
+    </form><!--close form-->
+</div><!--close jumbotron-->
+            
+<div class="callUs">
+    <h1 class="text-center">Have a question or looking for more information?</h2>
+    <h2 class="text-center">Call us!</h2>
+    <a class = "text-center" href="tel:248-871-7432"><button class="btn btn-default">Call</button></a>
+</div>  
+<div class="google container-fluid ">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d94478.26721698766!2d-83.19797311157234!3d42.26900517215262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1485891830720" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+<app-footer></app-footer>

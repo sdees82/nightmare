@@ -1,0 +1,272 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower 
+@import 'app/components/navbar/_navbar.scss';
+@import 'app/components/footer/_footer.scss';
+@import 'app/components/jumbotron/_jumbotron.scss';
+@import 'app/styles/_pages.scss';
+@import 'app/styles/_variables.scss';
+@import "app/styles/_about.scss";
+@import "app/styles/_services.scss";
+@import "app/styles/_contact.scss";
+@import "app/styles/_formSubmit.scss";
+
+ 
+
+ body, html{
+     height:100%;
+     width: 100%; 
+ }
+
+ @media screen and (max-width:500px){
+
+     .homepage .mPhotos .row a{
+         .pic2{
+         border:none;
+     }
+
+        .pic3{
+            border:none;
+        }
+     }
+    
+    .homepage > .mainJumbo {
+        height: 600px;
+        background: url('../app/images/family-small.jpg') !important;
+        background: $theme-white;
+        background-repeat: no-repeat !important;
+        background-position: center bottom !important;
+        
+
+           /* .banner-one{
+                display: none;
+            }
+
+            .banner-two{
+                display: none;
+            }*/
+            .overlay2{
+                background: rgba(0, 0,0,0.4) ;
+                 h1{
+                     font-size: 30px;
+                     position: relative;
+                     top:-190px;
+                    }
+                    h2{
+                        
+                     font-size: 20px;
+                     position: relative;
+                     top:-170px;
+                    
+                    }
+            }
+
+            .pic1{
+                border-left: none;
+            }
+         }
+
+    .mission{
+       height: 550px !important;
+
+            h1{
+               
+            }
+
+            h2{
+                font-size: 16px !important;
+                line-height: 1.8em !important; 
+                padding-left:10px;
+                padding-right: 10px;
+            }
+    }
+
+    .mPhotos{
+         margin-bottom:800px;
+     }
+
+
+}
+    
+
+    
+      /* .social{
+          // margin-top: 800px;
+       }
+
+       .twitter{
+            height: 50%;
+            width: 300px;
+            
+
+            .twitter-timeline{
+                width: 100%;
+            }
+    
+        }*/
+
+ 
+
+.homepage{
+    width:100%;
+} 
+
+.mission{
+    border-top: 1px solid $main-theme;
+    border-bottom: 4px solid $main-theme;
+    font-family: 'Raleway', sans-serif;
+    background: $theme-black;
+    color: $theme-white;
+    height: 400px;
+        
+        h1{
+            
+            font-family: 'Alegreya', serif;
+            font-weight: 700;
+            line-height: 46px;
+            font-size: 46px;
+            margin: 125px 0 23px 0;
+        }
+         h2{
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 23px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: $theme-white;
+        }
+    
+}
+
+.mainJumbo{
+    margin-top:0;
+    height:650px;
+    background: url('../app/images/family.jpg');
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: cover;
+    background-attachment:fixed; 
+
+        h1{
+            font-family: 'Alegreya', serif;
+            font-weight: 700;
+            line-height: 46px;
+            font-size: 60px;
+            padding-top: 300px;
+            text-shadow: 5px 5px 15px #000;
+            color: $main-theme;
+        }
+
+        h2{
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 23px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top:0;
+            text-shadow: 5px 5px 15px #000;
+            color: $theme-white;
+        }
+       /* .myOverlay{
+            height:100%;
+            background: $theme-overlay;
+        }
+
+        .banner-one{
+            font-family: 'Cinzel', serif;
+            position: absolute;
+            top:14%;
+            height:60px;
+            color: $theme-white;
+            background: $theme-overlay;
+            width:600px;
+
+               
+                
+        }
+
+
+        .banner-two{
+            font-family: 'Alegreya', serif;
+            position:absolute;
+            top:80%;
+            left:40%;
+            font-family: 'Cinzel', serif;
+            height:60px;
+            color:$theme-white;
+            background: $theme-overlay;
+            width:600px;
+
+          
+
+        }*/
+}
+
+.mPhotos{
+    height:400px;
+    border-bottom: 1px solid $main-theme;
+    position: relative;
+    background-attachment:fixed; 
+    
+       
+     .row {
+         height:100%;
+      a {
+         height: 100%;
+             .pic1{
+                 height: 100%;
+                 background:url('../app/images/kid-writing.jpg');
+                 background-repeat: no-repeat;
+                 background-position: center center;
+                 background-size: cover;
+                }
+                .pic2{
+                 height: 100%;
+                 background:url('../app/images/family-walking.jpg');
+                 background-repeat: no-repeat;
+                 background-position: center center;
+                 background-size: cover;
+                 border-left:4px solid $theme-white;
+                }
+                .pic3{
+                 height: 100%;
+                 background:url('../app/images/girl-in-books.jpg');
+                 background-repeat: no-repeat;
+                 background-position: center center;
+                 background-size: cover;
+                 border-left:4px solid $theme-white;
+                }
+
+            }
+     }
+}
+
+.social{
+    font-family: 'Alegreya', serif;
+    height: 100px;
+    background: $main-theme;
+    color:$theme-dark-coal;
+    
+
+        h1{
+            margin-top: 0;
+            padding-top:2%;
+        }
+}
+.twitter{
+    height: 50%;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.twitter-timeline{
+   
+    height:100%;
+p{
+    font-size:30px;
+}
+    
+}

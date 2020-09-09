@@ -1,0 +1,29 @@
+<div class="{{klass}}" >
+<h1>Hello Everyone</h1>
+</div>
+
+
+<!--jumbotronController.JS*******
+'use strict';
+
+
+function jumbotronController(){
+    var vm = this;
+
+}
+
+
+angular.module("phdApp")
+        .controller('jumbotronController', jumbotronController)
+        .component('appJumbo',{
+            templateUrl: 'components/jumbotron/jumbotron.html',
+            controller: "jumbotronController",
+            controllerAs: "vm",
+            bindings: {
+                zid: " =",
+                klass: "= "
+        }
+        });
+
+VIEW HTML ************
+<app-jumbo klass = "home"></app-jumbo>-->

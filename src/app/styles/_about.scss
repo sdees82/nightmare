@@ -1,0 +1,86 @@
+@import "_variables";
+
+@media screen and (max-width:768px){
+
+.aboutUs .aboutTron{
+     margin-top:-1%; 
+        height:650px;
+        background: url('../app/images/sunset-small.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:cover;
+        border-bottom: 6px solid $main-theme;
+        background-attachment:fixed; 
+}
+
+    .founder.container{
+        .phdImage{
+            height: 200px;
+            width: 350px;
+        }
+                p{
+                font-size:90px;
+                }
+
+    }
+}
+.aboutUs{
+    margin-top:8%; 
+    
+ 
+    .aboutTron{
+        margin-top:-1%;
+        height:650px;
+        background: url('../app/images/sunset.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:cover;
+        border-bottom: 6px solid $main-theme;
+       // background-attachment:fixed; 
+
+            .overlay2{
+                height: 100%;
+                padding-top:200px;
+
+
+                h1{
+                    //font-family:  Helvetica, sans-serif;
+                    font-family: 'Alegreya', serif;
+                    color: $theme-white; 
+                    margin-top:0;
+                }
+
+        }
+    }
+
+    .founder{
+        font-family:'Raleway', sans-serif;//'Open Sans', sans-serif;
+
+        .phdImage{
+            display: block;
+            height:300px;
+            widows: 400px;
+            margin:10px auto;
+        }
+            .para{ 
+                margin: 0 auto;
+                max-width: 75%;
+                padding-top:5%;
+                margin-bottom:5%;
+               
+
+                p{
+                    
+                   // font-size: 18px;
+                    //line-height: 36px;
+                    letter-spacing: 0.003em;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 15px;
+                    line-height: 23px;
+                     margin: 0 0 23px 0;
+                }
+            }
+    }
+
+}
+
