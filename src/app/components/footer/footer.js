@@ -42,7 +42,3 @@ angular.module("app")
     })
     .factory('FooterFactory',FooterFactory);
 
-    const year = document.querySelector('.year');
-    const d = new Date();
-
-    year.innerHTML = 'testing';
