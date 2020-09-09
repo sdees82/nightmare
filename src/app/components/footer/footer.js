@@ -16,8 +16,6 @@ function FooterFactory(){
         component: "getinvolved"
 }];
     var clinks = [{
-        name: "248-871-PHD2 (248-871-7432) ",
-    },{
         name: "parentshavedreams@gmail.com",
 }];
     var factory = {};
